@@ -108,16 +108,19 @@ header, #content, footer {
 
 /* Menu Links */
 ul.main-menu {
-  margin: 0;
+  width:750px;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
   list-style: none;
+  background: rgba(173,216,230,.9);
 }
 ul.main-menu li a {
   margin-right:20px;
   font-size:2.0rem;
+  width:750px;
   border-bottom: solid transparent 3px;
   color:#cfd2da;
 }
